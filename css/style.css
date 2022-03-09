@@ -2,3 +2,26 @@ body {
     font-family: "Nunito", Helvetica, Arial, sans-serif;
     color: #222;
 }
+
+/* Superinfo */
+.superinfo-bg {
+    background: #122AB2;
+    color: #FFF;
+}
+
+.superinfo {
+    max-width: 960px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 10px;
+}
+
+.superinfo p,
+.superinfo a {
+    margin: 0 10px 10px 10px;
+}
+
+.superinfo a {
+    color: #FFF;
+}
